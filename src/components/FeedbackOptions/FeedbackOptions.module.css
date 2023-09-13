@@ -1,0 +1,25 @@
+.button__container {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  min-width: 100px;
+  padding: 10px 12px;
+  background-color: grey;
+  color: beige;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: linear 100ms;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: gainsboro;
+}
+
+.button:active {
+  scale: 0.95;
+}
